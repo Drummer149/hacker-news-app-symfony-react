@@ -4,12 +4,26 @@ Implementation of Hacker News
 ## Installation
 
 Make sure you have docker composer and NPM on your local machine
-In the project directory you can run:
+In the root project directory you can run:
 
-### `sh ./run.sh`
+### `sh ./run.sh` SLOW METHOD DUE TO DOCKER
 
 Runs the appplication.<br>
 Open [http://localhost:8000](http://localhost:8000) to view it in the browser, once the JS files have built
+
+### Alternatively
+
+In the root project directory you can run:
+
+### `symfony server:start` 
+
+In a seperate terminal, in the same directory
+
+### `npm run dev` 
+
+Runs the appplication. But at risk of conflict of local enviroment<br>
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser, once the JS files have built
+
 
 ## Testing
 
