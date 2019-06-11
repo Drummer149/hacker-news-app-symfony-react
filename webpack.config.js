@@ -10,15 +10,15 @@ Encore
 
     .cleanupOutputBeforeBuild()
     .enableSourceMaps(!Encore.isProduction())
-
     // the following line enables hashed filenames (e.g. app.abc123.css)
     .enableVersioning(Encore.isProduction())
 
     .enableReactPreset()
 
     // uncomment to define the assets of the project
-    .addEntry('js/app', './assets/js/app.js')
-    //.addStyleEntry('css/app', './assets/css/app.scss')
+    .addEntry('js/news', './assets/js/Pages/News.js')
+    .addEntry('js/item', './assets/js/Pages/Item.js')
+    .addStyleEntry('css/app', './assets/css/app.css')
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
