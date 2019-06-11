@@ -16,6 +16,7 @@ class Item extends React.Component {
     }
 
     componentDidMount() {
+        // Get Item from API
         Api.getItem(this.props.id)
             .then((item) => {
                 this.setState({item, loaded: true});
@@ -26,6 +27,7 @@ class Item extends React.Component {
         let comments = '';
         let newsItem = 'Loading..'
 
+        // Populates the News Item and comments once loaded from the API
         if(this.state.loaded){
             newsItem = (<NewsItem index={this.state.index} obj={this.state.item} />);
             if(typeof this.state.item.kids !== 'undefined' ){
@@ -48,4 +50,5 @@ class Item extends React.Component {
     }
 }
 
+//Working with the means of the framework at the moment, this makes it UNTESTABLE!
 ReactDOM.render(<Item {...window.REP_LOG_APP_PROPS} />, document.getElementById('root'));

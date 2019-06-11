@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment should render correctly 1`] = `
+<div
+  className="comment"
+>
+  <span>
+    <b />
+    NaN seconds
+     ago
+    <div
+      className="commentToggle"
+      onClick={[Function]}
+    >
+      [
+      -
+      ]
+    </div>
+  </span>
+  <div
+    className="commentText"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+    <div />
+  </div>
+</div>
+`;

@@ -1,7 +1,8 @@
 import React from 'react';
 import { getHostname, timeSince} from '../Common/Utils';
 
-const NewsItem = ({ index, obj }) => (
+// Populates a NewsItem from a news object
+const NewsItem = ({ obj }) => (
     <div className="newsItem">
       <div className="section">
         <span className="title"><a href={obj.url}>{obj.title}</a></span>

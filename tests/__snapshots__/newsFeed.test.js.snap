@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`News Feed should render correctly in "debug" mode 1`] = `
+exports[`News Feed should render correctly 1`] = `
 <InfiniteScroll
   className="newsFeed"
   dataLength={0}

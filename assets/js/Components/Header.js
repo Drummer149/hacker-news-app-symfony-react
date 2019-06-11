@@ -1,6 +1,7 @@
 
 import React from 'react';
 
+// Simple Header for navigation
 const Header = () => (
   <div id="header">
   <ul>

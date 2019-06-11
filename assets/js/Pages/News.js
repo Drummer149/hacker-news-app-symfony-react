@@ -22,4 +22,5 @@ class News extends React.Component {
     }
 }
 
-ReactDOM.render(<News {...window.REP_LOG_APP_PROPS} />, document.getElementById('root'));
+//Working with the means of the framework at the moment, this makes it UNTESTABLE!
+ReactDOM.render((<News {...window.REP_LOG_APP_PROPS} />), document.getElementById('root'));

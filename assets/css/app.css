@@ -117,3 +117,8 @@ body {
     flex: 1;
   }
  }
+
+ .commentToggle {
+  cursor: 'pointer';
+  display: 'inline';
+ }

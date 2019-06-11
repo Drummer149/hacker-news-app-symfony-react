@@ -4,7 +4,7 @@ configure({ adapter: new Adapter() });
 
 import React from 'react';
 import { shallow } from 'enzyme';
-import NewsItem from '../../assets/js/Components/NewsItem';
+import NewsItem from '../assets/js/Components/NewsItem';
 
 describe('News Item', () => {
   const initialProps = {
