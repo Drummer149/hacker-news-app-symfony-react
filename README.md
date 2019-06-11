@@ -15,6 +15,12 @@ Open [http://localhost:8000](http://localhost:8000) to view it in the browser, o
 
 In the root project directory you can run:
 
+### `composer install`
+
+### `npm install`
+
+To run the server:
+
 ### `symfony server:start` 
 
 In a seperate terminal, in the same directory
