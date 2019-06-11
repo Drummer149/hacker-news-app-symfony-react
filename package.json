@@ -1,7 +1,16 @@
 {
     "devDependencies": {
         "@symfony/webpack-encore": "^0.19.0",
+        "@babel/core": "*",
+        "@babel/plugin-proposal-class-properties": "*",
+        "@babel/preset-env": "*",
+        "@babel/preset-react": "*",
+        "babel-jest": "^24.8.0",
         "babel-preset-react": "^6.24.1",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "enzyme-to-json": "^3.3.5",
+        "jest": "^24.8.0",
         "prop-types": "^15.6.2",
         "react": "^16.4.1",
         "react-dom": "^16.4.1"
@@ -12,11 +21,17 @@
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
-        "build": "encore production"
+        "build": "encore production",
+        "test": "jest"
     },
     "dependencies": {
         "firebase": "^6.1.1",
         "material-ui": "^0.20.1",
         "react-infinite-scroll-component": "^4.5.2"
+    },
+    "jest": {
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ]
     }
 }

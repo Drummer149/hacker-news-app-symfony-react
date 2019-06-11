@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Items from '../Components/Items';
 import Header from '../Components/Header';
 import NewsFeed from '../Components/NewsFeed';
 import Api from '../Common/Api';
@@ -18,9 +17,7 @@ class News extends React.Component {
         return (
             <React.Fragment>
                 <Header />
-                <div >
-                    <NewsFeed className="container" type={this.props.type} />
-                </div>
+                <NewsFeed type={this.props.type} />
             </React.Fragment>);
     }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Comment from '../Components/Comment';
-import Items from '../Components/Items';
 import Header from '../Components/Header';
 import NewsItem from '../Components/NewsItem';
 import Api from '../Common/Api';

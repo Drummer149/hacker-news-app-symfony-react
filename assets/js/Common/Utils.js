@@ -1,7 +1,5 @@
 // Given a UNIX Timestamp, will return a readable time since
 export function timeSince(date) {
-
-
   var seconds = Math.floor((new Date() - new Date(date * 1000)) / 1000);
   var interval = Math.floor(seconds / 31536000);
 

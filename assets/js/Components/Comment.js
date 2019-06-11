@@ -5,17 +5,6 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import NewsItem from './NewsItem';
 import {getHostname, timeSince} from '../Common/Utils';
 
-const style = {
-    height: 30,
-    border: "1px solid green",
-    margin: 6,
-    padding: 8
-  };
-
-const NUM_ITEMS_PAGE = 30;
-const MAX_NUM_ITEMS = 500;
-
-
 class Comment extends React.Component {
 
     constructor() {

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News Feed should render correctly in "debug" mode 1`] = `
+<InfiniteScroll
+  className="newsFeed"
+  dataLength={0}
+  disableBrowserPullToRefresh={true}
+  endMessage={
+    <p
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <b>
+        You have reached the end of the internet
+      </b>
+    </p>
+  }
+  hasMore={false}
+  loader={
+    <h4
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      Loading...
+    </h4>
+  }
+  next={[Function]}
+  pullDownToRefreshContent={
+    <h3>
+      Pull down to refresh
+    </h3>
+  }
+  pullDownToRefreshThreshold={100}
+  releaseToRefreshContent={
+    <h3>
+      Release to refresh
+    </h3>
+  }
+/>
+`;

@@ -1,7 +1,6 @@
 import React from 'react';
 import { getHostname, timeSince} from '../Common/Utils';
 
-
 const NewsItem = ({ index, obj }) => (
     <div className="newsItem">
       <div className="section">

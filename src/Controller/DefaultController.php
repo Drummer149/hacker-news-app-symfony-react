@@ -13,7 +13,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('default/index.html.twig', array(
+        return $this->render('default/news.html.twig', array(
             'repLogAppProps' => array(
                 'type' => 'topstories'
             ),
@@ -25,9 +25,21 @@ class DefaultController extends Controller
      */
     public function newestAction()
     {
-        return $this->render('default/index.html.twig', array(
+        return $this->render('default/news.html.twig', array(
             'repLogAppProps' => array(
                 'type' => 'newstories'
+            ),
+        ));
+    }
+
+    /**
+     * @Route("/best")
+     */
+    public function bestAction()
+    {
+        return $this->render('default/news.html.twig', array(
+            'repLogAppProps' => array(
+                'type' => 'beststories'
             ),
         ));
     }
